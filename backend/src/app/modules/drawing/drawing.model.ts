@@ -33,7 +33,7 @@ const drawingSchema = new mongoose.Schema({
   textAnnotations: [textAnnotationSchema],
 });
 
-const Drawing = mongoose.model('Drawing', drawingSchema);
+export const Drawing = mongoose.model('Drawing', drawingSchema);
 
 // Sample Data
 const sampleDrawing1 = {
