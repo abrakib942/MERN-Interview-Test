@@ -1,11 +1,12 @@
 import express from 'express';
+import { DrawingRoutes } from '../modules/drawing/drawing.routes';
 
 const router = express.Router();
 
 const moduleRoutes = [
   {
-    path: '',
-    routes: '',
+    path: '/drawing',
+    routes: DrawingRoutes,
   },
 ];
 
