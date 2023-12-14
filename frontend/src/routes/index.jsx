@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
-import DrawingPage from "../pages/drawingPage";
+import ViewDrawing from "../pages/ViewDrawing";
 
 const routes = createBrowserRouter([
   {
@@ -15,7 +15,7 @@ const routes = createBrowserRouter([
   },
   {
     path: "/drawing/:id",
-    element: <DrawingPage />,
+    element: <ViewDrawing />,
   },
 ]);
 

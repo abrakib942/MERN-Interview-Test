@@ -1,6 +1,6 @@
 import "./App.css";
 import Canvas from "./components/Canvas";
-import DrawingsPage from "./pages/drawingsPage";
+import DrawingsPage from "./pages/DrawingsPage";
 
 function App() {
   return (

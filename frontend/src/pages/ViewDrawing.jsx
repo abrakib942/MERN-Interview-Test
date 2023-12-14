@@ -3,7 +3,7 @@ import { useGetSingleDrawingQuery } from "../redux/api/drawingApi";
 import Loading from "../components/Loading";
 import CanvasDraw from "react-canvas-draw";
 
-const DrawingPage = () => {
+const ViewDrawing = () => {
   const { id } = useParams();
   const { data, isLoading } = useGetSingleDrawingQuery(id);
 
@@ -28,4 +28,4 @@ const DrawingPage = () => {
   );
 };
 
-export default DrawingPage;
+export default ViewDrawing;

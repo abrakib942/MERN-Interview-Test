@@ -21,10 +21,6 @@ const DrawingsPage = () => {
               {`Drawing ${drawing._id}`}
             </Link>
             <br />
-            <img
-              src={`data:image/png;base64,${drawing.drawingData}`}
-              alt={`Drawing ${drawing._id}`}
-            />
           </li>
         ))}
       </ul>
