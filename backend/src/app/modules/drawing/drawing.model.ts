@@ -31,6 +31,7 @@ const drawingSchema = new mongoose.Schema({
   lines: [lineSchema],
   shapes: [shapeSchema],
   textAnnotations: [textAnnotationSchema],
+  serializedData: String,
 });
 
 export const Drawing = mongoose.model('Drawing', drawingSchema);
